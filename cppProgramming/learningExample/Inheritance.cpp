@@ -27,7 +27,7 @@ public:
      	int getArea() 
 		{ 
      		return (width * height); 
-    		}
+   		}
 };
 
 int main(void) 
