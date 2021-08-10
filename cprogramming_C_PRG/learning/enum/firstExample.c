@@ -1,19 +1,25 @@
 #include<stdio.h>
-/*
-enum resut {pass, fail};
-    enum result s1,s2;
-    s1=pass;
-    s2=fail;
-    printf("%d",s1);
-	
-*/	
-enum SEX{
-Male=0, Female
-};
+
+enum sex(Male, Female};
 
 int main()
 {
-  SEX var = Male;
+  enum sex var;
+
+	var=Male;
   printf("%d",var);
   return 0;
 }
+
+
+/*            //Working Example
+enum week{Mon, Tue, Wed, Thur, Fri, Sat, Sun};
+  
+int main()
+{
+    enum week day;
+    day = Wed;
+    printf("%d",day);
+    return 0;
+} 
+*/
